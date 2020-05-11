@@ -82,7 +82,7 @@
         </form>
 
         <h1>Create a new account</h1>
-        <form action="https://secure-www.novell.com/selfreg/jsp/createOpenSuseAccount.jsp?target=https://www.opensuse.org" method="get">
+        <form action="https://idp-portal.suse.com/univention/self-service/#page=createaccount" method="get">
         <p>Sign up for an account to log in to the openSUSE infrastructure.</p>
         <p><input name="login" value="Sign up" type="submit"></p>
         </form>
@@ -91,9 +91,8 @@
         <p>If you've forgotten your account information, you can restore access to your account using the links below.</p>
 
         <ul>
-          <li><a href="https://secure-www.novell.com/selfreg/jsp/forgotPassword.jsp?target=http://www.opensuse.org">Recover my password</a></li>
-          <li><a href="https://secure-www.novell.com/selfreg/jsp/forgotUsername.jsp?target=http://www.opensuse.org">Look up my username</a></li>
-          <li><a href="https://secure-www.novell.com/selfreg/jsp/forgotAll.jsp?target=http://www.opensuse.org">Retrieve both</a></li>
+          <li><a href="https://idp-portal.suse.com/univention/self-service/#page=passwordreset">Recover my password</a></li>
+          <li><a href="https://idp-portal.suse.com/univention/self-service/#page=profiledata">Your profile</a></li>
         </ul>
 
     <script type="text/javascript">
